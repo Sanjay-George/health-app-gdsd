@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{55F90244-C84A-4D22-AB76-AAA60F69E669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthAppTests", "tests\HealthAppTests\HealthAppTests.csproj", "{E659C6AB-B2A9-4188-AE7E-4A4E9DEE0EC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{718065F6-2673-4234-9497-C055F9592133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthApp", "src\HealthApp\HealthApp.csproj", "{EA1BD228-9AAE-4FCC-A868-25E63CD47804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E659C6AB-B2A9-4188-AE7E-4A4E9DEE0EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E659C6AB-B2A9-4188-AE7E-4A4E9DEE0EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E659C6AB-B2A9-4188-AE7E-4A4E9DEE0EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E659C6AB-B2A9-4188-AE7E-4A4E9DEE0EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1BD228-9AAE-4FCC-A868-25E63CD47804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1BD228-9AAE-4FCC-A868-25E63CD47804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1BD228-9AAE-4FCC-A868-25E63CD47804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1BD228-9AAE-4FCC-A868-25E63CD47804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E659C6AB-B2A9-4188-AE7E-4A4E9DEE0EC1} = {55F90244-C84A-4D22-AB76-AAA60F69E669}
+		{EA1BD228-9AAE-4FCC-A868-25E63CD47804} = {718065F6-2673-4234-9497-C055F9592133}
+	EndGlobalSection
+EndGlobal
