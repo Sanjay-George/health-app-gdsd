@@ -1,0 +1,8 @@
+**/libs
+**/obj
+**/bin
+
+**/.vscode
+
+**/tests/**/coveragereport
+**/tests/**/TestResults
